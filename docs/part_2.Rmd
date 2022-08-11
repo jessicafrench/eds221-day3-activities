@@ -42,3 +42,4 @@ purrr::map_df(.x = inlet_biochem, .f = mean, na.rm =TRUE)
 apply(X = inlet_biochem, MARGIN = 2, FUN = mean, na.rm = TRUE)
 ```
 
+
